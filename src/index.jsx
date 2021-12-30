@@ -5,11 +5,23 @@ import './styles.css';
 import Application from './components/application';
 
 // TODO: get this from an API
-var posts = [
-	// key here because React wants it
-	{'title': 'post1', 'body': 'lorem ipsum', 'key': 1},
-	{'title': 'post2', 'body': 'sit dolor amet', 'key': 2}
+const posts = [
+	{
+		'id': 1,
+		'title': 'Show hidden files in Ubuntu',
+		'body': 'Ctrl+H in Files',
+		'time': '2021-12-31 09:21:00'
+	}
 ];
 
-ReactDOM.render(<Application posts={ posts }/>, document.getElementById('application'));
+const projects = [
+	{
+		'id': 1,
+		'title': 'Sandbot',
+		'body': 'Sandbot is a Half-Life engine multiplayer bot. It is written in C and C++ and is based on HPB bot.',
+		'link': 'https://github.com/tschumann/sandbot'
+	}
+];
+
+ReactDOM.render(<Application posts={posts} projects={projects}/>, document.getElementById('application'));
 

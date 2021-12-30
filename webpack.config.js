@@ -1,6 +1,7 @@
-var webpack = require('webpack');
+const webpack = require('webpack');
 
-var config = {
+const config = {
+	mode: 'development',
 	entry: __dirname + '/src/index.jsx',
 	output: {
 		path: __dirname,
@@ -10,17 +11,15 @@ var config = {
 		extensions: ['.js', '.jsx']
 	},
 	module: {
-		loaders: [
+		rules: [
 			{
 				test: /\.jsx$/,
 				exclude: /node_modules/,
 				loader: 'babel-loader',
-				query: {
-					presets: ['react']
-				}
 			}
 		]
 	}
 };
 
 module.exports = config;
+
