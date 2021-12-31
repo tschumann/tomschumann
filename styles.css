@@ -1,0 +1,16 @@
+
+
+.post-time {
+	margin-bottom: 8px;
+}
+
+.project-description,
+.post-content {
+	margin-bottom: 16px;
+	text-align: justify;
+}
+
+#footer {
+	text-align: center;
+}
+

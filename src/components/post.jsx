@@ -1,12 +1,18 @@
 import React from 'react';
 
 class Post extends React.Component {
+	getPostTime() {
+		const time = new Date(this.props.time);
+
+		return time.toLocaleString();
+	}
+
 	render() {
 		return (
 			<article>
 				<h3>{this.props.title}</h3>
 				<div className="post-time">
-					<time dateTime={this.props.time}>{this.props.time}</time>
+					Posted at <time dateTime={this.props.time}>{this.getPostTime()}</time>
 				</div>
 				<div className="post-content">
 					{this.props.body}
