@@ -30,6 +30,6 @@ Testing
 =======
 
 ```
-npm test
+./test.sh
 ```
 

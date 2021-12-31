@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test component renders 1`] = `
+<div>
+  <h3>
+    Name
+  </h3>
+  <div
+    className="project-description"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Body",
+      }
+    }
+  />
+  <div>
+    Source code: 
+    <a
+      href="https://dev.lan"
+      target="_blank"
+    >
+      https://dev.lan
+    </a>
+  </div>
+</div>
+`;

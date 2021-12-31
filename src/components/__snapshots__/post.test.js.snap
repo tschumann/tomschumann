@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test component renders 1`] = `
+<article>
+  <h3>
+    Title
+  </h3>
+  <div
+    className="post-time"
+  >
+    Posted at 
+    <time
+      dateTime="2021-12-31 11:08:00"
+    >
+      31/12/2021, 11:08:00 am
+    </time>
+  </div>
+  <div
+    className="post-content"
+  >
+    Body
+  </div>
+</article>
+`;
