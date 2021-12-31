@@ -18,6 +18,11 @@ sudo apt-get update
 sudo apt-get install yarn
 ```
 
+Releasing
+=========
+
+If you're on a new server run `boostrap.sh`
+
 Installing
 ==========
 
