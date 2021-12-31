@@ -1,8 +1,8 @@
 tomschumann.com
----------------
+===============
 
 Dependencies
-============
+------------
 
 An up to date version of nodejs is required so before installing run:
 ```
@@ -19,12 +19,12 @@ sudo apt-get install yarn
 ```
 
 Releasing
-=========
+---------
 
 If you're on a new server run `boostrap.sh`
 
 Installing
-==========
+----------
 
 ```
 yarn install
@@ -32,7 +32,7 @@ node_modules/webpack/bin/webpack.js
 ```
 
 Testing
-=======
+-------
 
 ```
 ./test.sh

@@ -1,12 +1,19 @@
-
+body {
+	color: rgb(44, 44, 44);
+	font-family: sans-serif;
+}
 
 .post-time {
+	font-size: 0.8rem;
 	margin-bottom: 8px;
 }
 
 .project-description,
 .post-content {
+	background-color: rgb(242, 242, 242);
+	border-radius: 4px;
 	margin-bottom: 16px;
+	padding: 8px;
 	text-align: justify;
 }
 
