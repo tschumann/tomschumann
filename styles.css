@@ -8,6 +8,22 @@ body {
 	margin-bottom: 8px;
 }
 
+.project-cpp {
+	border: 2px solid #f34b7d;
+}
+
+.project-js {
+	border: 2px solid #f1e05a;
+}
+
+.project-kt {
+	border: 2px solid #a97bff;
+}
+
+.project-py {
+	border: 2px solid #3572a5;
+}
+
 .project-description,
 .post-content {
 	background-color: rgb(242, 242, 242);
