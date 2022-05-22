@@ -62,7 +62,7 @@ const projects = [
 		'body': 'Capitle is <a href="http://capitle.tomschumann.com/" target="_blank">a capital city guessing game</a>. It is written in pure Javascript.',
 		'source_link': 'https://github.com/tschumann/capitle',
 		'language': 'js'
-	}
+	},
 	{
 		'id': 6,
 		'name': 'tomschumann.com',
