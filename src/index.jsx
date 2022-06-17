@@ -23,6 +23,12 @@ const posts = [
 		'time': '2021-12-31 10:43:00',
 		// the \\ is actually \ so copy what gets rendered, not what is here
 		'body': 'Do a text search using the following regex: ^~(:Wh@//.+)~(:Wh@\\{:Wh@)~(:Wh@\\}:Wh@)~(:Wh@\\#).+'
+	},
+	{
+		'id': 4,
+		'title': 'Connect to a Windows Shared Folder from Ubuntu',
+		'time': '2022-06-18 08:46:00',
+		'body': 'In Ubuntu, open the file explorer and go to File -> Connect to Server. Server is the computer\'s IP address, Type is Windows share, Share can be left blank, and Folder is the name of the folder you\'re connecting to. Domain name can be left blank (it can work it out? or is it the workgroup name?), User name is the Windows username and Password is the Windows password.'
 	}
 ];
 
