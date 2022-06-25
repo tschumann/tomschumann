@@ -9,6 +9,11 @@ class Application extends React.Component {
 	}
 
 	render() {
+		// sort posts by date posted, then reverse to that newest is first
+		const posts = this.props.posts.sort((a, b) => {
+			return new Date(a.time) - new Date(b.time);
+		}).reverse();
+
 		return (
 			<React.Fragment>
 				<h2>Tom Schumann</h2>
@@ -32,7 +37,7 @@ class Application extends React.Component {
 				<h2>Posts</h2>
 				<aside>Little bits of know-how.</aside>
 				<section id="posts">
-					{this.props.posts.map(item =>
+					{posts.map(item =>
 						<Post title={item.title} body={item.body} time={item.time} key={item.id} />)}
 				</section>
 

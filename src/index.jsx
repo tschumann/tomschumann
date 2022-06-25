@@ -79,5 +79,5 @@ const projects = [
 ];
 
 const root = createRoot(document.getElementById('application'));
-root.render(<Application projects={projects} posts={posts.reverse()}/>);
+root.render(<Application projects={projects} posts={posts}/>);
 
