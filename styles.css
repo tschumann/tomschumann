@@ -12,6 +12,10 @@ body {
 	border: 2px solid #f34b7d;
 }
 
+.project-cs {
+	border: 2px solid #178600;
+}
+
 .project-js {
 	border: 2px solid #f1e05a;
 }

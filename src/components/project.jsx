@@ -4,6 +4,8 @@ function getClassForLanguage(language) {
 	switch (language) {
 		case 'cpp':
 			return 'project-cpp';
+		case 'cs':
+			return 'project-cs';
 		case 'js':
 			return 'project-js';
 		case 'kt':
