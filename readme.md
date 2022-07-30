@@ -21,7 +21,8 @@ sudo apt-get install yarn
 Releasing
 ---------
 
-If you're on a new server run `boostrap.sh`
+`/install.sh` which will work for a new or existing server.
+
 
 Installing
 ----------

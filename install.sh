@@ -16,13 +16,15 @@ sudo apt-get -y install nginx nodejs yarn
 yarn install
 node_modules/webpack/bin/webpack.js
 
+mkdir -p /var/www/sites/tomschumann
+
 # install the Tom Schumann site configuration
 sudo cp tomschumann.conf /etc/nginx/sites-enabled
 
-sudo cp index.html /var/www/sites/tomschumann
-sudo cp bundle.js /var/www/sites/tomschumann
-sudo cp styles.css /var/www/sites/tomschumann
-sudo cp sitemap.xml /var/www/sites/tomschumann
+sudo cp index.html /var/www/sites/tomschumann/
+sudo cp bundle.js /var/www/sites/tomschumann/
+sudo cp styles.css /var/www/sites/tomschumann/
+sudo cp sitemap.xml /var/www/sites/tomschumann/
 
 sudo service nginx restart
 
