@@ -54,7 +54,7 @@ const projects = [
 		'body': 'ktext is a .pdf manipulator. It exposes some of the functionality of <a href="https://itextpdf.com/en" target="_blank">iText</a> through a command line tool. It is written in Kotlin and Java.',
 		'source_link': 'https://github.com/tschumann/ktext',
 		'language': 'kt'
-	}
+	},
 	{
 		'id': 4,
 		'name': 'sish',
