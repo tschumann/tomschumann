@@ -8,7 +8,7 @@ exports[`test component renders with language 1`] = `
   <div
     className="project-cpp project-description"
     dangerouslySetInnerHTML={
-      Object {
+      {
         "__html": "Body",
       }
     }
@@ -33,7 +33,7 @@ exports[`test component renders without language 1`] = `
   <div
     className=" project-description"
     dangerouslySetInnerHTML={
-      Object {
+      {
         "__html": "Body",
       }
     }
