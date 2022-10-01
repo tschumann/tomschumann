@@ -29,6 +29,12 @@ const posts = [
 		'title': 'Connect to a Windows Shared Folder from Ubuntu',
 		'time': '2022-06-18 08:46:00',
 		'body': 'In Ubuntu, open the file explorer and go to File -> Connect to Server. Server is the computer\'s IP address, Type is Windows share, Share can be left blank, and Folder is the name of the folder you\'re connecting to. Domain name can be left blank (it can work it out? or is it the workgroup name?), User name is the Windows username and Password is the Windows password.'
+	},
+	{
+		'id': 5,
+		'title': 'Building a .dll or .so with Fortran Package Manager',
+		'time': '2022-10-01 15:34:00',
+		'body': 'As at the time of writing at least (latest Fortran Package Manager is v0.6.0), fpm cannot build a .dll or .so file. fpm will build all of the object files, so all that is required is to link the .o files into a binary.<br/>On Windows: gfortran -static -shared build\\*.o -o output.dll<br/>On Linux: gfortran -static -shared build/*.o -o output.so<br/>If you\'re linking 32-bit code also add -m32 to the gfortran parameters.'
 	}
 ];
 
@@ -44,7 +50,7 @@ const projects = [
 	{
 		'id': 2,
 		'name': 'sandbot-wptgen',
-		'body': 'sandbot-wptgen is a Sandbot waypoint generator. It is based on <a href="http://hpb-bot.bots-united.com/bsp_tool.html" target="_blank">BSP_tool</a> and has been updated with support for more games and mods; support for modern versions of Visual C++ and gcc and tests. It is written in C and C++ for Windows and Linux.',
+		'body': 'sandbot-wptgen is a Sandbot waypoint generator. It is based on <a href="http://hpb-bot.bots-united.com/bsp_tool.html" target="_blank">BSP_tool</a> and has been updated with support for modern versions of Visual C++ and gcc, 64-bit support, unit tests and with support for more games and mods. It is written in C and C++ for Windows and Linux.',
 		'source_link': 'https://github.com/tschumann/sandbot-wptgen',
 		'language': 'cpp'
 	},
@@ -58,7 +64,7 @@ const projects = [
 	{
 		'id': 4,
 		'name': 'sish',
-		'body': 'sish is a share trading simulator. It is written in C#.',
+		'body': 'sish is an Australian share trading simulator. It is written in C#.',
 		'source_link': 'https://github.com/tschumann/sish',
 		'language': 'cs'
 	},

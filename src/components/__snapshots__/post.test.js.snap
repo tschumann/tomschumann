@@ -17,8 +17,11 @@ exports[`test component renders 1`] = `
   </div>
   <div
     className="post-content"
-  >
-    Body
-  </div>
+    dangerouslySetInnerHTML={
+      {
+        "__html": "Body",
+      }
+    }
+  />
 </article>
 `;

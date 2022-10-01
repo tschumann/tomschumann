@@ -14,8 +14,7 @@ class Post extends React.Component {
 				<div className="post-time">
 					Posted at <time dateTime={this.props.time}>{this.getPostTime()}</time>
 				</div>
-				<div className="post-content">
-					{this.props.body}
+				<div className="post-content" dangerouslySetInnerHTML={{__html: this.props.body}}>
 				</div>
 			</article>
 		);

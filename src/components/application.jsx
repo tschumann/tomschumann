@@ -26,7 +26,7 @@ class Application extends React.Component {
 				<hr/>
 
 				<h2>Projects</h2>
-				<aside>In my spare time I tinker with different technologies for different projects. All of my public projects can be found on my <a href="https://github.com/tschumann" target="_blank">GitHub</a> but some of the more complete ones are detailed here.</aside>
+				<aside>In my spare time I tinker with different software technologies. All of my public projects can be found on my <a href="https://github.com/tschumann" target="_blank">GitHub</a> but some of the more complete ones are detailed here.</aside>
 				<section id="projects">
 					{this.props.projects.map(item =>
 						<Project name={item.name} body={item.body} sourceLink={item.source_link} language={item.language} key={item.id} />)}
