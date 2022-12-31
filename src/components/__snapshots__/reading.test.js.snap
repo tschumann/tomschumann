@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test component renders 1`] = `
+<div>
+  <h3
+    className="book-title"
+  >
+    My site
+  </h3>
+   
+  <a
+    href="http://dev.lan"
+    target="_blank"
+  >
+    http://dev.lan
+  </a>
+</div>
+`;

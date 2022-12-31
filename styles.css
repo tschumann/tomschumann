@@ -37,6 +37,10 @@ body {
 	text-align: justify;
 }
 
+.book-title {
+	display: inline-block;
+}
+
 #footer {
 	text-align: center;
 }

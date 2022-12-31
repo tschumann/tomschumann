@@ -103,6 +103,20 @@ const projects = [
 	}
 ];
 
+// TODO: get this from an API
+const reading = [
+	{
+		'id': 1,
+		'title': 'Game Engine Black Book: Wolfenstein 3D',
+		'link': 'https://fabiensanglard.net/gebbwolf3d/'
+	},
+	{
+		'id': 2,
+		'title': 'Game Engine Black Book DOOM',
+		'link': 'https://fabiensanglard.net/gebbdoom/'
+	}
+];
+
 const root = createRoot(document.getElementById('application'));
-root.render(<Application projects={projects} posts={posts}/>);
+root.render(<Application projects={projects} posts={posts} reading={reading} />);
 

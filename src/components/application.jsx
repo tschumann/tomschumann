@@ -2,6 +2,7 @@ import React from 'react';
 
 import Post from './post';
 import Project from './project';
+import Reading from './reading';
 
 class Application extends React.Component {
 	getYear() {
@@ -39,6 +40,15 @@ class Application extends React.Component {
 				<section id="posts">
 					{posts.map(item =>
 						<Post title={item.title} body={item.body} time={item.time} key={item.id} />)}
+				</section>
+
+				<hr/>
+				
+				<h2>Other reading</h2>
+				<aside>Programming books and resources by others that are worth a look.</aside>
+				<section id="reading">
+					{this.props.reading.map(item =>
+						<Reading title={item.title} link={item.link} key={item.id} />)}
 				</section>
 
 				<hr/>
