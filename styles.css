@@ -3,6 +3,16 @@ body {
 	font-family: sans-serif;
 }
 
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+th, td {
+	border: 1px solid black;
+	vertical-align: top;
+}
+
 .post-time {
 	font-size: 0.8rem;
 	margin-bottom: 8px;
