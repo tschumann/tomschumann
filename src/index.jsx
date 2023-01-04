@@ -52,8 +52,15 @@ const posts = [
 		'id': 7,
 		'title': 'Navigating Google Analytics 4 reports',
 		'time': '2022-12-31 10:37:00',
-		'body': 'Google Analytics 4 has moved most reports around so it\'s not always easy to find the equivalent from Google Analytics 3.<br/><table><tr><th>Google Analytics 3</th><th>Google Analytics 4</th><th>Notes</th></tr><tr><td>Home -> daily users</td><td>Reports -> Reports snapshot -> daily users</td><td>Neither graph has a name or title</td></tr><tr><td>Home -> How do you acquire users?</td><td>Reports -> Acquisition -> User acquisition -> New users by First user default channel group over time</td><td></td></tr><tr><td>Home -> Where are your users?</td><td>Reports -> Reports snapshot -> Users by Country</td><td></td></tr><tr><td>Home -> When do your users visit?</td><td>-</td><td>No equivalent report</td></tr><tr><td>Acquisition -> All Traffic -> Referrals</td><td>Reports -> Acquisition -> Traffic acquisition</td><td>Change the source in the bottom table to Session source for an approximation of the old report</td></tr><tr><td>Behavior -> Site Content -> All Pages</td><td>All Pages: Reports -> Engagement -> Pages and screens</td><td></td></tr><tr><td>Behavior -> Events -> Overview</td><td>eports -> Engagement -> Events</td><td></td></tr></table>',
+		'body': 'Google Analytics 4 has moved most reports around so it\'s not always easy to find the equivalent from Google Analytics 3.<br/><table><tr><th>Google Analytics 3</th><th>Google Analytics 4</th><th>Notes</th></tr><tr><td>Home -> daily users</td><td>Reports -> Reports snapshot -> daily users</td><td>Neither graph has a name or title</td></tr><tr><td>Home -> How do you acquire users?</td><td>Reports -> Acquisition -> User acquisition -> New users by First user default channel group over time</td><td></td></tr><tr><td>Home -> Where are your users?</td><td>Reports -> Reports snapshot -> Users by Country</td><td></td></tr><tr><td>Home -> When do your users visit?</td><td>-</td><td>No equivalent report</td></tr><tr><td>Acquisition -> All Traffic -> Referrals</td><td>Reports -> Acquisition -> Traffic acquisition</td><td>Change the source in the bottom table to Session source for an approximation of the old report</td></tr><tr><td>Behavior -> Site Content -> All Pages</td><td>All Pages: Reports -> Engagement -> Pages and screens</td><td></td></tr><tr><td>Behavior -> Events -> Overview</td><td>Reports -> Engagement -> Events</td><td></td></tr></table>',
 		'tags': ['google-analytics']
+	},
+	{
+		'id': 8,
+		'title': 'Adding new domain in Linode',
+		'time': '2023-01-04 17:04:00',
+		'body': 'When creating a new domain in Linode, you\'ll be prompted to enter an SOA Email Address - this should be email address that you registered the domain with.',
+		'tags': ['hosting']
 	}
 ];
 
