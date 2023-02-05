@@ -25,6 +25,7 @@ sudo cp index.html /var/www/sites/tomschumann/
 sudo cp bundle.js /var/www/sites/tomschumann/
 sudo cp styles.css /var/www/sites/tomschumann/
 sudo cp sitemap.xml /var/www/sites/tomschumann/
+sudo cp posts.yaml /var/www/sites/tomschumann/
 
 sudo service nginx restart
 
