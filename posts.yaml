@@ -19,7 +19,8 @@
 - id: 3
   title: Counting lines of actual code in Visual Studio
   time: '2021-12-31 10:43:00'
-  body: 'Do a text search using the following regex: ^~(:Wh@//.+)~(:Wh@\{:Wh@)~(:Wh@\}:Wh@)~(:Wh@\#).+'
+  body: 'Do a text search using the following regex:
+    <code>^~(:Wh@//.+)~(:Wh@\{:Wh@)~(:Wh@\}:Wh@)~(:Wh@\#).+</code>'
   tags:
   - visual-studio
 
@@ -39,10 +40,10 @@
   time: '2022-10-01 15:34:00'
   body: 'As at the time of writing at least (latest Fortran Package Manager is v0.6.0),
     fpm cannot build a .dll or .so file. fpm will build all of the object files, so
-    all that is required is to link the .o files into a binary.<br/>On Windows: gfortran
-    -static -shared build\*.o -o output.dll<br/>On Linux: gfortran -static -shared
-    build/*.o -o output.so<br/>If you''re linking 32-bit code also add -m32 to the
-    gfortran parameters.'
+    all that is required is to link the .o files into a binary.<br/>
+    On Windows: <code>gfortran -static -shared build\*.o -o output.dll</code><br/>
+    On Linux: <code>fortran -static -shared build/*.o -o output.so</code><br/>
+    If you''re linking 32-bit code also add -m32 to the gfortran parameters.'
   tags:
   - fortran
 
@@ -111,4 +112,14 @@
     Address - this should be email address that you registered the domain with.
   tags:
   - hosting
+
+- id: 9
+  title: Downloading Steam depots
+  time: '2023-02-05 19:16:00'
+  body: |
+    Open the Steam console: <code><a href="steam://open/console" target="_blank">steam://open/console</a></code><br/>
+    Run the command <code>download_depot &lt;appid&gt; &lt;depotid&gt;</code> (you can get the appi and depotid from <a href="https://steamdb.info" target="_blank">https://steamdb.info</a>)</code><br/>
+    When it finished downloading it will leave a message saying where it downloaded but it should be in <code>steamapps/content/app_&lt;appid&gt;/depot_&lt;depotid&gt;</code>
+  tags:
+  - steam
 

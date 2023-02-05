@@ -18,6 +18,12 @@ sudo apt-get update
 sudo apt-get install yarn
 ```
 
+Developing
+----------
+
+After building run `python3 -m http.server` and open http://127.0.0.1:8000/
+
+
 Releasing
 ---------
 
