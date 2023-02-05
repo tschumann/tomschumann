@@ -1,17 +1,33 @@
 import React from 'react';
+import yaml from 'js-yaml';
 
 import Post from './post';
 import Project from './project';
 import Reading from './reading';
 
 class Application extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = { posts: [] };
+	}
+
+	componentDidMount() {
+		fetch('/posts.yaml?_=0205')
+			.then((response) => {
+				return response.text();
+			})
+			.then((response) => {
+				this.setState({ posts: yaml.load(response) });
+			});
+	}
+
 	getYear() {
 		return (new Date()).getFullYear();
 	}
 
 	render() {
 		// sort posts by date posted, then reverse to that newest is first
-		const posts = this.props.posts.sort((a, b) => {
+		const posts = this.state.posts.sort((a, b) => {
 			return new Date(a.time) - new Date(b.time);
 		}).reverse();
 
