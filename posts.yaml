@@ -123,3 +123,18 @@
   tags:
   - steam
 
+- id: 10
+  title: Accessing Mac CDs/DVDs on Windows
+  time: '2023-02-26 20:14:00'
+  body: |
+    Mac CDs/DVDs might be formatted with the HFS filesystem. Windows doesn't have support for the HFS filesystem so by default a Mac disc will show nothing. <a href="https://www.catacombae.org/hfsexplorer/" target="_blank>HFS Explorer</a> can be used to get files off these discs.
+  tags:
+  - mac
+
+- id: 11
+  title: Opening Xbox Live Arcarde game files
+  time: '2023-02-26 20:16:00'
+  body: |
+    Xbox 360s allow Xbox Live Arcarde game files to be exported to a USB which allows transfer of the game files to a computer. The files have long alphanumeric names. You can use <a href="https://digiex.net/threads/wxpirs-extract-content-from-xbox-360-demos-video-dlc-and-arcade-game-containers.9464/" target="_blank>wxPirs</a> to open and extract the files.
+  tags:
+  - xbox
