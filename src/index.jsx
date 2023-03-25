@@ -22,10 +22,10 @@ const projects = [
 	{
 		'id': 3,
 		'name': 'foolsgoldsource',
-		'body': 'Fool\s GoldSource is a stub/mock GoldSource engine to allow proper unit testing of GoldSource mods and plugins. It is written in C and C++ for Windows.',
+		'body': 'Fool\'s GoldSource is a stub/mock GoldSource engine to allow proper unit testing of GoldSource mods and plugins. It is written in C and C++ for Windows.',
 		'source_link': 'https://github.com/tschumann/foolsgoldsource',
 		'language': 'cpp'
-	}
+	},
 	{
 		'id': 4,
 		'name': 'ktext',
