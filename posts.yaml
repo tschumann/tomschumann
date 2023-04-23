@@ -138,3 +138,15 @@
     Xbox 360s allow Xbox Live Arcarde game files to be exported to a USB which allows transfer of the game files to a computer. The files have long alphanumeric names. You can use <a href="https://digiex.net/threads/wxpirs-extract-content-from-xbox-360-demos-video-dlc-and-arcade-game-containers.9464/" target="_blank>wxPirs</a> to open and extract the files.
   tags:
   - xbox
+
+- id: 12
+  title: Ubuntu minor version update
+  time: '2023-04-23 18:24:00'
+  body: |
+    Update software lists:<br/>
+    <code>sudo apt update</code><br/>
+    Apply the operating system minor version updates:<br/>
+    <code>sudo apt full-upgrade</code><br/>
+    <code>do-release-upgrade</code> will do an operating system major version update.
+  tags:
+  - linux
