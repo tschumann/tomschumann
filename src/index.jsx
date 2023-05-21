@@ -8,7 +8,7 @@ const projects = [
 	{
 		'id': 1,
 		'name': 'Sandbot',
-		'body': 'Sandbot is a Half-Life engine multiplayer bot. It is based on <a href="http://hpb-bot.bots-united.com/hpb_bot.html" target="_blank">HPB bot</a> and has been updated with support for more games and mods; support for modern versions of Visual C++ and gcc and tests. It is written in C and C++ for Windows and Linux.',
+		'body': 'Sandbot is a Half-Life engine multiplayer bot. It is based on <a href="http://hpb-bot.bots-united.com/hpb_bot.html" target="_blank">HPB bot</a> and has been updated with support for more games and mods; unit tests and support for modern versions of Visual C++ and gcc. It is written in C and C++ for Windows and Linux.',
 		'source_link': 'https://github.com/tschumann/sandbot',
 		'language': 'cpp'
 	},
@@ -22,7 +22,7 @@ const projects = [
 	{
 		'id': 3,
 		'name': 'foolsgoldsource',
-		'body': 'Fool\'s GoldSource is a stub/mock GoldSource engine to allow proper unit testing of GoldSource mods and plugins. It is written in C and C++ for Windows.',
+		'body': 'Fool\'s GoldSource is a stub/mock GoldSource engine to allow proper unit testing of GoldSource engiine mods and plugins. It is written in C and C++ for Windows.',
 		'source_link': 'https://github.com/tschumann/foolsgoldsource',
 		'language': 'cpp'
 	},

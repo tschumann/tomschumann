@@ -84,7 +84,7 @@
       <tr>
         <td>Home -> When do your users visit?</td>
         <td>-</td>
-        <td>No equivalent report</td>
+        <td><em>No equivalent report</em></td>
       </tr>
       <tr>
         <td>Acquisition -> All Traffic -> Referrals</td>
@@ -118,8 +118,8 @@
   time: '2023-02-05 19:16:00'
   body: |
     Open the Steam console: <code><a href="steam://open/console" target="_blank">steam://open/console</a></code><br/>
-    Run the command <code>download_depot &lt;appid&gt; &lt;depotid&gt;</code> (you can get the appi and depotid from <a href="https://steamdb.info" target="_blank">https://steamdb.info</a>)</code><br/>
-    When it finished downloading it will leave a message saying where it downloaded but it should be in <code>steamapps/content/app_&lt;appid&gt;/depot_&lt;depotid&gt;</code>
+    Run the command <code>download_depot &lt;appid&gt; &lt;depotid&gt;</code> (you can get the appid and depotid from <a href="https://steamdb.info" target="_blank">https://steamdb.info</a>)</code><br/>
+    When it finishes downloading it will leave a message saying where it downloaded but it should be in <code>steamapps/content/app_&lt;appid&gt;/depot_&lt;depotid&gt;</code>
   tags:
   - steam
 
@@ -127,7 +127,7 @@
   title: Accessing Mac CDs/DVDs on Windows
   time: '2023-02-26 20:14:00'
   body: |
-    Mac CDs/DVDs might be formatted with the HFS filesystem. Windows doesn't have support for the HFS filesystem so by default a Mac disc will show nothing. <a href="https://www.catacombae.org/hfsexplorer/" target="_blank>HFS Explorer</a> can be used to get files off these discs.
+    Mac CDs/DVDs might be formatted with the HFS filesystem. Windows doesn't have support for the HFS filesystem so by default a Mac disc will show nothing. <a href="https://www.catacombae.org/hfsexplorer/" target="_blank">HFS Explorer</a> can be used to get files off these discs.
   tags:
   - mac
 
@@ -135,7 +135,7 @@
   title: Opening Xbox Live Arcarde game files
   time: '2023-02-26 20:16:00'
   body: |
-    Xbox 360s allow Xbox Live Arcarde game files to be exported to a USB which allows transfer of the game files to a computer. The files have long alphanumeric names. You can use <a href="https://digiex.net/threads/wxpirs-extract-content-from-xbox-360-demos-video-dlc-and-arcade-game-containers.9464/" target="_blank>wxPirs</a> to open and extract the files.
+    Xbox 360s allow Xbox Live Arcarde game files to be exported to a USB which allows transfer of the game files to a computer. The files have long alphanumeric names. You can use <a href="https://digiex.net/threads/wxpirs-extract-content-from-xbox-360-demos-video-dlc-and-arcade-game-containers.9464/" target="_blank">wxPirs</a> to open and extract the files.
   tags:
   - xbox
 

@@ -12,7 +12,7 @@ class Application extends React.Component {
 	}
 
 	componentDidMount() {
-		fetch('/posts.yaml?_=0205')
+		fetch('/posts.yaml?_=2105')
 			.then((response) => {
 				return response.text();
 			})
