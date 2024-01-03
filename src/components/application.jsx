@@ -67,8 +67,10 @@ class Application extends React.Component {
 						<Reading title={item.title} link={item.link} key={item.id} />)}
 				</section>
 
-				<h2>Other links (recommended but unread)</h2>
-				<section class="link-list">
+				<hr/>
+
+				<h3>Other links (recommended but unread)</h3>
+				<section className="link-list">
 					<a href="https://all-things-andy-gavin.com/" target="_blank">https://all-things-andy-gavin.com/</a>
 					<a href="https://www.copetti.org/writings/consoles/materials/ebook/" target="_blank">https://www.copetti.org/writings/consoles/materials/ebook/</a>
 					<a href="https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/" target="_blank">https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/</a>
