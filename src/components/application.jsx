@@ -1,6 +1,7 @@
 import React from 'react';
 import yaml from 'js-yaml';
 
+import OpenSource from './opensource';
 import Post from './post';
 import Project from './project';
 import Reading from './reading';
@@ -47,6 +48,17 @@ class Application extends React.Component {
 				<section id="projects">
 					{this.props.projects.map(item =>
 						<Project name={item.name} body={item.body} sourceLink={item.source_link} language={item.language} key={item.id} />)}
+				</section>
+
+				<hr/>
+
+				<h2>Open Source Contributions</h2>
+				<aside>
+					I've also contributed to open source projects:
+				</aside>
+				<section id="opensource">
+					{this.props.opensource.map(item =>
+						<OpenSource title={item.title} link={item.link} key={item.id} />)}
 				</section>
 
 				<hr/>

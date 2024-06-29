@@ -22,7 +22,7 @@ const projects = [
 	{
 		'id': 3,
 		'name': 'foolsgoldsource',
-		'body': 'Fool\'s GoldSource is a stub/mock GoldSource engine to allow proper unit testing of GoldSource engiine mods and plugins. It is written in C and C++ for Windows.',
+		'body': 'Fool\'s GoldSource is a stub/mock GoldSource engine to allow proper unit testing of GoldSource engine mods and plugins. It is written in C and C++ for Windows and Linux.',
 		'source_link': 'https://github.com/tschumann/foolsgoldsource',
 		'language': 'cpp'
 	},
@@ -63,7 +63,24 @@ const projects = [
 	}
 ];
 
-// TODO: get this from an API
+const opensource = [
+	{
+		'id': 1,
+		'title': 'Metamod-p',
+		'link': 'https://github.com/Bots-United/metamod-p'
+	},
+	{
+		'id': 2,
+		'title': 'Metamod: Source',
+		'link': 'https://github.com/alliedmodders/metamod-source'
+	},
+	{
+		'id': 3,
+		'title': 'RCBot2',
+		'link': 'https://github.com/APGRoboCop/rcbot2'
+	}
+];
+
 const reading = [
 	{
 		'id': 1,
@@ -78,5 +95,5 @@ const reading = [
 ];
 
 const root = createRoot(document.getElementById('application'));
-root.render(<Application projects={projects} reading={reading} />);
+root.render(<Application projects={projects} opensource={opensource} reading={reading} />);
 
