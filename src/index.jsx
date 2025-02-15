@@ -78,6 +78,16 @@ const opensource = [
 		'id': 3,
 		'title': 'RCBot2',
 		'link': 'https://github.com/APGRoboCop/rcbot2'
+	},
+	{
+		'id': 4,
+		'title': 'FileDetectionRuleSets',
+		'link': 'https://github.com/SteamDatabase/FileDetectionRuleSets'
+	},
+	{
+		'id': 5,
+		'title': 'Master Sword Rebirth',
+		'link': 'https://github.com/MSRevive/MasterSwordRebirth'
 	}
 ];
 
