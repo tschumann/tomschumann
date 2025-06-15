@@ -23,7 +23,7 @@ Installing
 ----------
 
 ```
-yarn install
+npm install
 node_modules/webpack/bin/webpack.js
 ```
 

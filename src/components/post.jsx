@@ -4,7 +4,7 @@ class Post extends React.Component {
 	getPostTime() {
 		const time = new Date(this.props.time);
 
-		return time.toLocaleString();
+		return time.toISOString();
 	}
 
 	render() {

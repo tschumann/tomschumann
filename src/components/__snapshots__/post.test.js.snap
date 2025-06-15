@@ -12,7 +12,7 @@ exports[`test component renders 1`] = `
     <time
       dateTime="2021-12-31 11:08:00"
     >
-      31/12/2021, 11:08:00 am
+      2021-12-31T01:08:00.000Z
     </time>
   </div>
   <div
