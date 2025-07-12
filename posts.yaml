@@ -184,3 +184,16 @@
     A special file extraction mode can be activated in InstallShield installers by passing the <code>/x</code> parameter.
   tags:
   - windows
+
+- id: 15
+  title: Extra settings to enable in Visual Studio C/C++ projects
+  time: '2025-07-12 16:01:00'
+  body: |
+    Some useful things to turn on for C/C++ projects in Visual Studio:
+    <ul>
+        <li>AddressSanitizer: see <a href="https://learn.microsoft.com/en-us/cpp/sanitizers/asan?view=msvc-170" target="_blank">https://learn.microsoft.com/en-us/cpp/sanitizers/asan?view=msvc-170</a></li>
+        <li>Assembly output: go to project settings -> C/C++ -> Output Files -> Assembler Output and choose "Assembly With Source Code"</li>
+        <li>Code analysis: go to project settings -> Code Analysis -> Enable Code Analysis on Build and choose "Yes"</li>
+    </ul>
+  tags:
+  - visual-studio
