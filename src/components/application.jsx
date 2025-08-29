@@ -38,7 +38,7 @@ class Application extends React.Component {
 
 				<h2>About</h2>
 				<section id="about">
-					I'm a software engineer. In the past I've worked (professionally) on <a href="https://todo.vu/" target="_blank">todo.vu</a> (previously known as Kitovu) and <a href="https://www.jumbointeractive.com/platform" target="_blank">Jumbo Lottery Platform</a> (marketed as Powered by Jumbo).
+					I'm a senior software engineer. In the past I've worked (professionally) on <a href="https://todo.vu/" target="_blank">todo.vu</a> (previously known as Kitovu) and <a href="https://www.jumbointeractive.com/platform" target="_blank">Jumbo Lottery Platform</a> (marketed as Powered by Jumbo).
 				</section>
 
 				<hr/>
@@ -64,7 +64,7 @@ class Application extends React.Component {
 				<hr/>
 
 				<h2>Posts</h2>
-				<aside>Little bits of know-how.</aside>
+				<aside>Little bits of tech know-how.</aside>
 				<section id="posts">
 					{posts.map(item =>
 						<Post title={item.title} body={item.body} time={item.time} key={item.id} />)}

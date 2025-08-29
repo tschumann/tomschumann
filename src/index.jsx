@@ -28,17 +28,17 @@ const projects = [
 	},
 	{
 		'id': 4,
+		'name': 'archon',
+		'body': 'Archon is a Steam master server and API mock server to allow end to end testing of projects that communicate with Steam. It is written in C#.',
+		'source_link': 'https://github.com/tschumann/archon',
+		'language': 'cs'
+	},
+	{
+		'id': 5,
 		'name': 'ktext',
 		'body': 'ktext is a .pdf manipulator. It exposes some of the functionality of <a href="https://itextpdf.com/en" target="_blank">iText</a> through a command line tool. It is written in Kotlin and Java.',
 		'source_link': 'https://github.com/tschumann/ktext',
 		'language': 'kt'
-	},
-	{
-		'id': 5,
-		'name': 'sish',
-		'body': 'sish is an Australian share trading simulator. It is written in C#.',
-		'source_link': 'https://github.com/tschumann/sish',
-		'language': 'cs'
 	},
 	{
 		'id': 6,
@@ -49,13 +49,6 @@ const projects = [
 	},
 	{
 		'id': 7,
-		'name': 'Capitle',
-		'body': 'Capitle is <a href="http://capitle.tomschumann.com/" target="_blank">a capital city guessing game</a>. It is written in pure Javascript.',
-		'source_link': 'https://github.com/tschumann/capitle',
-		'language': 'js'
-	},
-	{
-		'id': 8,
 		'name': 'tomschumann.com',
 		'body': "tomschumann.com is this website. It has a bit of information about me and some projects I've worked on. It is written in Javascript using React.",
 		'source_link': 'https://github.com/tschumann/tomschumann',
