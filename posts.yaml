@@ -197,3 +197,107 @@
     </ul>
   tags:
   - visual-studio
+
+- id: 16
+  title: ISO-3166-1 country codes for defunct countries
+  time: '2026-10-31 14:39:00'
+  body: '
+    <table>
+      <tr>
+        <th>Country/colony/territory</th>
+        <th>ISO-3166-1 alpha-2</th>
+        <th>ISO-3166-1 alpha-3</th>
+      </tr>
+      <tr>
+        <td>British West Africa</td>
+        <td>BW</td>
+        <td>BWA</td>
+      </tr>
+      <tr>
+        <td>Southern Rhodesia</td>
+        <td>SR</td>
+        <td>SRH</td>
+      </tr>
+      <tr>
+        <td>Straits Settlements</td>
+        <td>SS</td>
+        <td>STS</td>
+      </tr>
+    </table>'
+  tags:
+  - history
+
+- id: 17
+  title: Defunct Australian shops
+  time: '2026-10-31 14:45:00'
+  body: '
+    <table>
+      <tr>
+        <th>Business Name</th>
+        <th>Industry</th>
+        <th>Address</th>
+      </tr>
+      <tr>
+        <td>Granny May''s</td>
+        <td>Gag shop</td>
+        <td>Shop 255, Level 2, Myer Centre, 91 Queen Street, Brisbane, Queensland</td>
+      </tr>
+      <tr>
+        <td>Images</td>
+        <td>Night club</td>
+        <td>Level 24, SGIO Plaza, 343 Albert Stree/143 Turbot Street, Brisbane, Queensland</td>
+      </tr>
+    </table>'
+  tags:
+  - history
+
+- id: 18
+  title: Sicilian words
+  time: '2026-10-31 14:48:00'
+  body: '
+    <table>
+      <tr>
+        <th>Word</th>
+        <th>Type</th>
+        <th>Meaning</th>
+        <th>Derivation</th>
+      </tr>
+      <tr>
+        <td>chiumbutu</td>
+        <td>adjective</td>
+        <td>ripe</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>pumma</td>
+        <td>noun</td>
+        <td>apple</td>
+        <td>pomme - French</td>
+      </tr>
+      <tr>
+        <td>raggina</td>
+        <td>noun</td>
+        <td>grape</td>
+        <td>raisin - French</td>
+      </tr>
+      <tr>
+        <td>suricu</td>
+        <td>noun</td>
+        <td>mouse</td>
+        <td>sourris - French</td>
+      </tr>
+      <tr>
+        <td>tabbutu</td>
+        <td>noun</td>
+        <td>coffin</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>travaggiu</td>
+        <td>noun</td>
+        <td>work</td>
+        <td>travail - French</td>
+      </tr>
+    </table>'
+  tags:
+  - history
